@@ -1,0 +1,21 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: #d6d8db;
+    border-bottom: 1px solid white;
+    height: 200px;
+}
+
+.profile-pic {
+    height: 200px;
+    margin-top: 5px;
+}
+
+thead {
+    font-size: large;
+    font-style: normal;
+    font-weight: 300;
+}
+
