@@ -2,10 +2,32 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.row-me {
+    width: 100%;
+}
+
 .header {
     background-color: #d6d8db;
     border-bottom: 1px solid white;
     height: 200px;
+}
+
+.header-blog-home {
+    font-size: larger;
+    background-color: #d6d8db;
+    border-bottom: 1px solid white;
+    height: 50px;
+    align-items: center;
+}
+
+.header-blog-text {
+    padding: 5px;
+}
+
+.about-me-header {
+    padding: 5px;
+    color: #2aabd2;
+    text-align: right;
 }
 
 .profile-pic {
@@ -17,5 +39,30 @@ thead {
     font-size: large;
     font-style: normal;
     font-weight: 300;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid lightgrey;
+    width: inherit;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: lightgray 1px 1px 1px;
+}
+
+.card .card-title {
+    color: black;
+    font-size: large;
+    border-bottom: 1px lightgray;
+}
+
+.card .card-summary {
+    color: black;
+    font-size: small;
+}
+
+.section {
+    margin: 0 auto;
 }
 
